@@ -1,0 +1,24 @@
+{
+  "extends": ["tslint-react", "tslint-config-prettier"],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "singleQuote": true,
+        "semi": false,
+        "printWidth": 140
+      }
+    ],
+    "member-access": [true, "no-public"],
+    "variable-name": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "no-shadowed-variable": false,
+    "no-console": false,
+    "no-var-requires": false,
+  },
+  "linterOptions": {
+    "exclude": ["node_modules/**"]
+  }
+}
